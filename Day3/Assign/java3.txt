@@ -1,0 +1,33 @@
+ASSIGNMENT- 3
+Q1. What are the different types of operators available in Java?
+Different operators are-
+	Arithmetic operators 
+	Assignment Operators 
+	Relational Operators 
+	Bitwise Operators 
+	Logical operators 
+	Misc Operators
+
+Q2. What are the different types of Arithmetic operators available in Java?
+	Addition (+)
+	Substraction(-)
+	Multiplication(*)
+	Division(/)
+	Modulus(%)
+
+Q8& 9. How does “strictfp” ensure portability in Java? and At what levels can you apply “strictfp”?
+The strictfp keyword must use strict floating-point operations that yield reproducible results. strictfp can be applied at the class, interface or method level.
+
+19. What are the four rules of binary operations?
+The four rules of binary operations are -
+	If either of the operands is of type double, the other one will be converted to a double. 
+	If either of the operands is of type float, the other one will be converted to a float. 
+	If either of the operands is of type long, the other one will be converted to a long. 
+	Otherwise, both operands will be converted to an int.
+
+20. What is narrow/explicit/down type casting and what is widening/implicit/up type casting?
+Widening – Converting a lower data type into a higher one is called widening type casting. It is also known as implicit conversion or casting down. 
+Narrowing-  Converting a higher data type into a lower one is called narrowing type casting. It is also known as explicit conversion or casting up.
+
+22. What is harm in doing down casting?
+Casting leads to loss in original data.
