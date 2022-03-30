@@ -1,0 +1,58 @@
+ASSIGNMENT- 1(Day-1)
+2.What do we mean when we say Java is portable?
+Java is portable because we can java code to any other machine without changing the actual code. That is we can run the same code of 32 bit to 64 bit machine.
+
+4.What is a LTS release?
+The LTS is Long Term support that is provided by java developer  for 8 years . In every six month new java version is releases but  LTS version is releases in every 8 years.
+
+5. What is the current version of Java?
+The current version of java is JAVA 17  which is LTS (Long Term Support )and in march 2022 new version would be launched by developer that is JAVA18.
+
+6.Write a HelloWorld program, compile and run through the command line?
+public class First{
+   public static void main(String[] args){
+    System.out.println("Hello World!!!!!");
+}
+}
+
+8. What is a Java compiler and what is its function?
+Java compiler is Javac  which is used to compiler java program . java compiler convert  java byte code to java class that is binary code(Machine understandable code).
+
+9. What are the main two components of JVM and what are their functions?
+The two main components of JVM are-
+Class Loader- Which is used to load class file into memory.
+Execution Engine- Which is used to execute program of java.
+
+10. What is the difference between JVM, JRE and JDK?
+JVM- JVM is some set of libraries and other executable files.
+JRE-JRE is JVM+ some development tools that is javac  etc.
+JDK –JVM+ JRE 
+
+13. What are Java doc comments?
+Java document comment is comment which we can add in java documents , Comments are program which is not executable in program but for used to give brief description about documentation and program.
+
+14.Write a program that has JavaDoc comments and code comments(single line, multi line) in STS.
+/**
+ * 
+ * @author Shweta Jaiswal
+ *
+ */
+public class NewClass {
+	/**
+	 * Takes some argument 
+	 * @param args
+	 */
+
+	public static void main(String[] args) {
+		// This is just a main method nothing else.....
+		System.out.println("Hello Everyone!! I am here.");
+
+	}
+
+}
+		
+16. What is the difference between Method Parameter and Method Arguments?
+ Method parameter is parameter which is passed in method during definition of method and Method arguments are the arguments passed by method which can be used by another method.
+
+17.  What is a just in time(JIT) compiler and how does it work?
+The Just-In-Time (JIT) compiler is a an essential part of the JRE i.e. Java Runtime Environment, that is responsible for performance optimization of java based applications at run time.
