@@ -1,0 +1,77 @@
+                                                               ASSIGNMENT-7
+
+Q1. What is the difference between Procedural and Object oriented programming?
+Structured programming-
+Procedural  or Structured programming consists of designing a set of procedures (or algorithms) to solve a problem. When the procedures are determined, the  next step was to find appropriate ways to store the data.
+Algorithim  -> Data Store 
+Object oriented programming  -
+ Object oriented programming  puts the data first, then looks at the algorithms to operate on the data.It is reverse order of procedural programming.
+•	It Maps to real world 
+•	Objects have certain behavior.
+
+Q2.What were the problems with Procedural programming?
+The problem with procedural programming is that if there is big software then it require 2,000 procedures for implementation for certain software, all of which manipulate a set of global data. All the changes would be done on global data which leads to ambiguity.
+
+Q3.Define class?
+A class is the template or blueprint from which objects are made. Class is a logical entity with no physical existence in memory.
+
+Q4. Define object?
+Object is an instance of class which has state and behaviour. Object is a physical entity with physical existence in memory.
+
+Q5. What is the difference between the class and object and give a real world example of each?
+A class is a logical entity but object is a physical entity . 
+Example of class – car 
+Example of object – Baleno 
+
+Q6. Out of class and object which has physical existence and which is logical entity?
+A class is a logical entity 
+Object is a physical entity . 
+
+Q7. What do you mean by “state”, “behavior” and “identity” with respect of Object?
+The object’s state —how does the object react when you invoke those methods? 
+The object’s behavior—what can you do with this object, or what methods can you apply to it? 
+The object’s identity —how is the object distinguished from others that may have the same behavior and state?
+
+Q9. What are “class members” in terms of class?
+The methods and variables defined within a class are called members of the class.
+
+Q10. What is a constructor?
+A constructor initializes an object immediately upon creation.  It has the same name as the class in which it resides and is syntactically similar to a method. The constructor is automatically called when the object is created using new operator.
+
+Q11. What is the return type of constructor?
+ Constructor have no return type defined not even void. This is because the implicit return type of a class’ constructor is the class type itself.
+
+Q12. What is a parameterized constructor?
+ When you want to initialize the state of the object while the object is getting created.or want to pass parameters while creation of object.
+
+Q14. What is a default no argument constructor?
+Default constructor is when no argument is passed while creation of object and it is also known as non- parameterized constructor.
+
+Q15. Is it true that a class gets no-argument constructor by default only when there is no other parameterized constructor defined?
+Yes , it true that a class gets no-argument constructor by default only when there is no other parameterized constructor defined.
+
+Q16. What is the meaning of “null”, what happens when a reference variable points to “null”, i.e Employee employee = null.
+When no value is assign to object by default it is considered as null. For integer it is zero (0) by default.
+
+Q17. What is a method, what is the return type and parameters of a method? Take examples from the Employee class.
+Method is a block of code which is used to excute some task repeatedly. If the method does not  return any value , its return type must be void  .
+Parameters are essentially variables that receive the value of the arguments passed to the method when it is called.
+
+Q21. What is “this” keyword used for?
+ A method  need to refer to the object that invoked it. To allow this, Java defines the this keyword. this can be used inside any method/constructor to refer to the current object.
+
+Q22. What are different access modifiers that can be applied to fields and methods of a class?
+•	Public 
+•	Protected 
+•	Private 
+
+Q23. Describe all the access modifiers?
+private - External classes cannot access the member. 
+protected - The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class public, it cannot be accessed from outside the package. 
+public - All classes in the application can access the member.
+
+Q24. What is the purpose of private methods?
+Private methods purpose is to prevent duplication of code and make data private and not accessed by other user.
+
+Q25. Which access modifier would you use to protect your fields/data?
+private is used to protect fields/ data.
