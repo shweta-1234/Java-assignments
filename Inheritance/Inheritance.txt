@@ -1,0 +1,69 @@
+Assignment -8
+
+Q1.What is inheritance? Explain with examples?
+Inheritance is use for code reusablity in which child class object acquire the property of parent class object.
+Example-
+public class Parent {
+     
+	public void guardian() {
+		System.out.println("I am guardian");
+	}
+}
+
+public class Child extends Parent {
+   
+	public void children() {
+		System.out.println("I am child");
+	}
+}
+
+public static void main(String[] args) {
+
+		Parent P = new Parent();
+		P.guardian();
+
+		Child c = new Child();
+		c.children();
+		c.guardian();
+	}
+
+Q2. Why do we need to use inheritance?
+ We need to use inheritance for-
+code reusablity.
+Method over riding.
+
+Q3. What is the keyword used to achieve Inheritance in Java?
+Extends keyword is used to achieve inheritance in java .
+Syntax-
+Childclassname extends Parentsclassname
+
+Q5. How can a sub-class call a constructor of the super class.
+Sub class call the constructor of super class with the help of super keyword.
+by default non- parameterized constructor is called but for parameterized constructor suer keyword is used.
+
+Q7. What is method overriding?
+If a child class having same method (name and parameter is also same)as declared in parent class it is known as method overriding.
+
+Q9. Is multiple inheritance supported in Java?
+No, multiple inheritance is not supported in java.
+
+Q10. What is “Dynamic Binding”?
+Dynamic binding is overridden methods of child class is called through reference variable of parent class at run time.
+
+Q12. Which keyword is used to prevent inheritance?
+Final keyword is used to prevent inheritance as we cannot inherit final class.
+
+Q13. Can a final method be overridden?
+No we cannot override final method.
+
+
+
+
+
+
+
+
+
+
+
+
